@@ -1,0 +1,71 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 3px;
+}
+
+.card-img-top {
+    max-width: 250px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: silver;
+}
+
+div.col-sm-10, div.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.card {
+    background-color: whitesmoke;
+    margin-bottom: 20px;
+    box-shadow: 0 6px 9px rgba(11, 11, 11, .45);
+}
+
+#search_form {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+}
+
+div.row {
+    justify-content: space-evenly;
+}
+
+#div.main.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+input#location.form-control, input#description.form-control {
+    text-align: center;
+}
+
+.btn-primary {
+    margin-bottom: 4px;
+}
